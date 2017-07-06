@@ -248,6 +248,11 @@ footer {
 
   @media #{$desktop} {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col:nth-of-type(odd) {
+    margin-left: 0;
   }
 
   .project {
@@ -255,27 +260,20 @@ footer {
 
     @media #{$desktop} {
       &:nth-of-type(even) {
-        margin-top: 10vh;
         text-align: right;
       }
     }
 
     @media #{$md} {
       padding: $md-padding;
-
-      &:nth-of-type(even) { margin-top: 10vh; }
     }
 
     @media #{$lg} {
       padding: $lg-padding;
-
-      &:nth-of-type(even) { margin-top: 15vh; }
     }
 
     @media #{$xl} {
       padding: $xl-padding;
-
-      &:nth-of-type(even) { margin-top: 20vh; }
     }
 
     h2 {
@@ -300,6 +298,15 @@ footer {
     &.tshirt-design {
       a {
         background: $tshirt-design;
+        &:hover {
+          background: $white;
+        }
+      }
+    }
+
+    &.poster-design {
+      a {
+        background: $poster-design;
         &:hover {
           background: $white;
         }
@@ -396,6 +403,12 @@ footer {
     &:hover { background: $mt3; }
   }
   nav { background: $mt1; }
+}
+
+/*                                                                                  Layout ➡ content/mind-trucks.html */
+.poster-design {
+  .showcase { background: $poster-design; }
+  nav { background: $poster-design; }
 }
 
 /*                                                                                  Layout ➡ content/semplice-knowledgebase.html */

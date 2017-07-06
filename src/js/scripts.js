@@ -5,11 +5,6 @@ $(function() {
 
     var loc = window.location.href;
 
-    if(/semplice-knowledgebase/.test(loc)) {
-        $('body').addClass('sk');
-        $('body').removeClass('home');
-        $('body').addClass('case-study-page');
-    }
     if(/best-of-semplice/.test(loc)) {
         $('body').addClass('bos');
         $('body').removeClass('home');
@@ -26,6 +21,16 @@ $(function() {
     }
     if(/mind-trucks/.test(loc)) {
         $('body').addClass('mt');
+        $('body').removeClass('home');
+        $('body').addClass('case-study-page');
+    }
+    if(/poster-design/.test(loc)) {
+        $('body').addClass('poster-design');
+        $('body').removeClass('home');
+        $('body').addClass('case-study-page');
+    }
+    if(/semplice-knowledgebase/.test(loc)) {
+        $('body').addClass('sk');
         $('body').removeClass('home');
         $('body').addClass('case-study-page');
     }
