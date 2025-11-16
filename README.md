@@ -1,12 +1,12 @@
 ## Hi, I’m Amanda
 
-✨ Currently looking for a full-time role. ✨
+✨ Currently working at Superhuman (formerly Grammarly) in a contractor role, but open to hearing about opportunities! ✨
 
 I’m a Senior Software Engineer with 10+ years of experience. I’ve shipped sites for Marvel Snap, the Golden Globes, Wizards of the Coast, and many more!
 
 Most of my work is in private repos (mostly GitLab), but if you're interested in how I write code, you can check out my [portfolio repo](https://github.com/venerated/mandamcneal.com).
 
-My philosiphy when it comes to developent is "build sites that you'd want to use," meaning that empathy is my north star. That means I care about things like performance and accessibility.
+My philosiphy when it comes to developent is "build sites that you'd want to use." Empathy is my north star, so I care about things like performance and accessibility.
 
 <!--
 **venerated/venerated** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
